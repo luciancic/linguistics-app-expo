@@ -9,13 +9,13 @@ function ListenScreen(props) {
         <View style={localStyles.inputView}>
             <TextInput 
                 style={localStyles.textInput}
-                placeholder='Enter your text to hear it.' 
+                placeholder='Enter text you would like to hear' 
                 onChangeText={text => setText(text)} 
                 onSubmitEditing={() => {}}
             />
         </View>
         <View style={globalStyles.flexView}>
-            <Button title='Home' onPress={() => props.navigation.navigate('Home')} />
+            <Button title='Listen' />
         </View>
     </View>
 }
