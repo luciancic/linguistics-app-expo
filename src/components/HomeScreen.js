@@ -19,7 +19,6 @@ function HomeScreen(props) {
     </View>
 }
 HomeScreen.navigationOptions = {
-    title: 'Home',
     headerStyle: { display: 'none' }
 };
 
