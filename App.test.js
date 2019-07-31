@@ -4,6 +4,6 @@ import { View } from 'react-native';
 
 describe('app', () => {
     test('renders correctly a view', () => {
-        render(<View />);
+        render(<View />); 
     })
 })
