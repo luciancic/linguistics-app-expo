@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "Linguistics",
+    "description": "TTS/ASR app to help language students improve their pronunciation",
     "slug": "LinguisticsApp",
     "privacy": "public",
     "sdkVersion": "33.0.0",
@@ -25,7 +26,6 @@
     ],
     "ios": {
       "supportsTablet": true
-    },
-    "description": ""
+    }
   }
 }
