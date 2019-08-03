@@ -6,10 +6,12 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "eject": "expo eject",
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint ./**/*.js"
   },
   "dependencies": {
     "expo": "^33.0.0",
+    "prop-types": "^15.7.2",
     "react": "16.8.3",
     "react-dom": "^16.8.6",
     "react-native": "https://github.com/expo/react-native/archive/sdk-33.0.0.tar.gz",
@@ -18,6 +20,10 @@
   },
   "devDependencies": {
     "babel-preset-expo": "^5.1.1",
+    "eslint": "^6.1.0",
+    "eslint-plugin-jest": "^22.14.1",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-native": "^3.7.0",
     "jest-expo": "^34.0.0",
     "react-native-testing-library": "^1.11.1",
     "react-test-renderer": "^16.8.6"

@@ -1,8 +1,8 @@
 import React from 'react';
-import { Button, StyleSheet, View } from 'react-native';
+import { Button, View } from 'react-native';
 import globalStyles from './globalStyles';
 
-function SpeakScreen(props) {
+function SpeakScreen() {
     return <View style={globalStyles.container}>
         <View style={globalStyles.flexView}>
             <Button title='Start recording' />

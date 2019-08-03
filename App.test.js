@@ -5,6 +5,5 @@ import { View } from 'react-native';
 describe('app', () => {
     test('renders correctly a view', () => {
         render(<View />); 
-        expect(1).toEqual(1);
     })
 })

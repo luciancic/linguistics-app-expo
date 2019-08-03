@@ -1,8 +1,8 @@
-import { createStackNavigator, createAppContainer } from "react-navigation";
+import { createStackNavigator, createAppContainer } from 'react-navigation';
 import ListenScreen from './src/components/ListenScreen';
 import HomeScreen from './src/components/HomeScreen';
 import SpeakScreen from './src/components/SpeakScreen';
-import CollectionScreen from "./src/components/CollectionScreen";
+import CollectionScreen from './src/components/CollectionScreen';
 
 const AppNavigator = createStackNavigator({
     Home: HomeScreen,
