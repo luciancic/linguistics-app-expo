@@ -1,16 +1,14 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Button, TextInput, StyleSheet, View } from 'react-native';
 import globalStyles from './globalStyles';
 
-function ListenScreen(props) {
-    const [text, setText] = useState('');
-
+function ListenScreen() {
     return <View style={globalStyles.container}>
         <View style={localStyles.inputView}>
             <TextInput 
                 style={localStyles.textInput}
                 placeholder='Enter text you would like to hear' 
-                onChangeText={text => setText(text)} 
+                onChangeText={() => {}} 
                 onSubmitEditing={() => {}}
             />
         </View>

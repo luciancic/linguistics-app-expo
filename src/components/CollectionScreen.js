@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-import { Button, Text, View } from 'react-native';
+import React from 'react';
+import { Text, View } from 'react-native';
 import globalStyles from './globalStyles';
 
-function CollectionScreen(props) {
+function CollectionScreen() {
     return <View style={globalStyles.container}>
         <View style={globalStyles.flexView}>
             <Text>No collections found</Text>
