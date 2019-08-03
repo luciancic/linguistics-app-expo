@@ -19,6 +19,8 @@ jobs:
     steps:
       - checkout
 
+      - run: yarn run lint
+
       # Download and cache dependencies
       - restore_cache:
           keys:
