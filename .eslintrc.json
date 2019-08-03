@@ -22,6 +22,11 @@
         "react",
         "react-native"
     ],
+    "settings": {
+        "react": {
+            "version": "detect"
+        }
+    },
     "rules": {
         "accessor-pairs": "error",
         "array-bracket-newline": "error",
