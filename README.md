@@ -1,2 +1,3 @@
-# linguistics-app
-TTS/ASR app to help language students improve their pronunciation
+# Linguistics App Expo
+
+DEPRECATED: Moved [here](https://github.com/luciancic/linguistics-app)
